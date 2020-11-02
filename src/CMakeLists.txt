@@ -80,25 +80,25 @@ if(MINGW)
     list(APPEND RESOURCES ${ICON_RES})
 endif()
 
-add_executable(monero-wallet-gui ${EXECUTABLE_FLAG} main/main.cpp
+add_executable(monerobs-wallet-gui ${EXECUTABLE_FLAG} main/main.cpp
     ${SOURCE_FILES}
     ${PASS_STRENGTH_FILES}
     ${QR_CODE_FILES}
     ${RESOURCES}
 )
-set_property(TARGET monero-wallet-gui PROPERTY RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
+set_property(TARGET monerobs-wallet-gui PROPERTY RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 
 # OpenGL
-target_include_directories(monero-wallet-gui PUBLIC ${OPENGL_INCLUDE_DIR})
+target_include_directories(monerobs-wallet-gui PUBLIC ${OPENGL_INCLUDE_DIR})
 message(STATUS "OpenGL: include dir at ${OPENGL_INCLUDE_DIR}")
 message(STATUS "OpenGL: libraries at ${OPENGL_LIBRARIES}")
 
-target_include_directories(monero-wallet-gui PUBLIC ${Qt5Gui_PRIVATE_INCLUDE_DIRS})
+target_include_directories(monerobs-wallet-gui PUBLIC ${Qt5Gui_PRIVATE_INCLUDE_DIRS})
 
 file(GLOB_RECURSE SRC_SOURCES *.cpp)
 file(GLOB_RECURSE SRC_HEADERS *.h)
 
-target_include_directories(monero-wallet-gui PUBLIC
+target_include_directories(monerobs-wallet-gui PUBLIC
 	${CMAKE_SOURCE_DIR}/monero/include
     ${CMAKE_SOURCE_DIR}/monero/src
     ${CMAKE_SOURCE_DIR}/monero/external/easylogging++
@@ -118,7 +118,7 @@ target_include_directories(monero-wallet-gui PUBLIC
     ${ZBAR_INCLUDE_DIR}
 )
 
-target_compile_definitions(monero-wallet-gui
+target_compile_definitions(monerobs-wallet-gui
 	PUBLIC
 	${Qt5Widgets_DEFINITIONS}
     ${Qt5Qml_DEFINITIONS}
@@ -132,7 +132,7 @@ else()
   set(UNBOUND_LIBRARY unbound)
 endif()
 
-target_link_libraries(monero-wallet-gui
+target_link_libraries(monerobs-wallet-gui
     ${CMAKE_BINARY_DIR}/lib/libwallet_merged.a
     ${LMDB_LIBRARY}
     ${CMAKE_BINARY_DIR}/monero/contrib/epee/src/libepee.a
@@ -154,15 +154,15 @@ target_link_libraries(monero-wallet-gui
 )
 
 if(DEVICE_TREZOR_READY)
-    target_link_libraries(monero-wallet-gui ${TREZOR_DEP_LIBS})
+    target_link_libraries(monerobs-wallet-gui ${TREZOR_DEP_LIBS})
 endif()
 
 if(X11_FOUND)
-    target_link_libraries(monero-wallet-gui ${X11_LIBRARIES})
+    target_link_libraries(monerobs-wallet-gui ${X11_LIBRARIES})
 endif()
 
 if(WITH_SCANNER)
-    target_link_libraries(monero-wallet-gui
+    target_link_libraries(monerobs-wallet-gui
         ${ZBAR_LIBRARIES}
         jpeg
         v4l2
@@ -171,6 +171,6 @@ if(WITH_SCANNER)
     )
 endif()
 
-install(TARGETS monero-wallet-gui
+install(TARGETS monerobs-wallet-gui
     DESTINATION ${CMAKE_INSTALL_PREFIX}
 )

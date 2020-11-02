@@ -65,7 +65,7 @@
     <message>
         <location filename="../pages/AddressBook.qml" line="93"/>
         <source>This makes it easier to send or receive Monero and reduces errors when typing in addresses manually.</source>
-        <translation type="unfinished"></translation>
+        <translation>This makes it easier to send or receive MoneroBS and reduces errors when typing in addresses manually.</translation>
     </message>
     <message>
         <location filename="../pages/AddressBook.qml" line="100"/>
@@ -491,12 +491,12 @@
     <message>
         <location filename="../pages/Keys.qml" line="62"/>
         <source>WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNING: Do not reuse your MoneroBS keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="85"/>
         <source>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your Monero. Please write down your seed manually.</source>
-        <translation type="unfinished"></translation>
+        <translation>WARNING: Copying your seed to clipboard can expose you to malicious software, which may record your seed and steal your MoneroBS. Please write down your seed manually.</translation>
     </message>
     <message>
         <location filename="../pages/Keys.qml" line="197"/>
@@ -920,7 +920,9 @@
         <source>Mining with your computer helps strengthen the Monero network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
 
 Mining also gives you a small chance to earn some Monero. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</source>
-        <translation type="unfinished"></translation>
+        <translation>Mining with your computer helps strengthen the MoneroBS network. The more that people mine, the harder it is for the network to be attacked, and every little bit helps.
+
+Mining also gives you a small chance to earn some MoneroBS. Your computer will create hashes looking for block solutions. If you find a block, you will get the associated reward. Good luck!</translation>
     </message>
     <message>
         <location filename="../pages/Mining.qml" line="83"/>
@@ -1289,7 +1291,7 @@ Mining also gives you a small chance to earn some Monero. Your computer will cre
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="100"/>
         <source>Embedded Monero version: </source>
-        <translation type="unfinished"></translation>
+        <translation>Embedded MoneroBS version: </translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsInfo.qml" line="130"/>
@@ -1511,12 +1513,12 @@ The old wallet cache file will be renamed and can be restored later.
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="223"/>
         <source>Uses a third-party server to connect to the Monero network. Less secure, but easier on your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uses a third-party server to connect to the MoneroBS network. Less secure, but easier on your computer.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="260"/>
         <source>To find a remote node, type &apos;Monero remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</source>
-        <translation type="unfinished"></translation>
+        <translation>To find a remote node, type &apos;MoneroBS remote node&apos; into your favorite search engine. Please ensure the node is run by a trusted third-party.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsNode.qml" line="268"/>
@@ -1694,7 +1696,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="143"/>
         <source>Receive Monero for your business, easily.</source>
-        <translation type="unfinished"></translation>
+        <translation>Receive MoneroBS for your business, easily.</translation>
     </message>
     <message>
         <location filename="../pages/settings/SettingsWallet.qml" line="144"/>
@@ -1722,7 +1724,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="104"/>
         <source>This page allows you to interact with the shared ring database. This database is meant for use by Monero wallets as well as wallets from Monero clones which reuse the Monero keys.</source>
-        <translation type="unfinished"></translation>
+        <translation>This page allows you to interact with the shared ring database. This database is meant for use by MoneroBS wallets as well as wallets from MoneroBS clones which reuse the MoneroBS keys.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="117"/>
@@ -1739,7 +1741,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="120"/>
         <source>In order to obscure which inputs in a Monero transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection Monero uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. Such a list is maintained by the Monero project and is available on the getmonero.org website, and you can import this list here.&lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing Monero clones) yourself using the monero-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>In order to obscure which inputs in a MoneroBS transaction are being spent, a third party should not be able to tell which inputs in a ring are already known to be spent. Being able to do so would weaken the protection afforded by ring signatures. If all but one of the inputs are known to be already spent, then the input being actually spent becomes apparent, thereby nullifying the effect of ring signatures, one of the three main layers of privacy protection MoneroBS uses.&lt;br&gt;To help transactions avoid those inputs, a list of known spent ones can be used to avoid using them in new transactions. &lt;br&gt;Alternatively, you can scan the blockchain (and the blockchain of key-reusing MoneroBS clones) yourself using the moneroBS-blockchain-mark-spent-outputs tool to create a list of known spent outputs.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="141"/>
@@ -1810,12 +1812,12 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="257"/>
         <source>In order to avoid nullifying the protection afforded by Monero&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing Monero clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by Monero and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing Monero clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your Monero safely.&lt;br&gt;If you do not use a key-reusing Monero clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>In order to avoid nullifying the protection afforded by MoneroBS&apos;s ring signatures, an output should not be spent with different rings on different blockchains. While this is normally not a concern, it can become one when a key-reusing MoneroBS clone allows you to spend existing outputs. In this case, you need to ensure this existing outputs uses the same ring on both chains.&lt;br&gt;This will be done automatically by MoneroBS and any key-reusing software which is not trying to actively strip you of your privacy.&lt;br&gt;If you are using a key-reusing MoneroBS clone too, and this clone does not include this protection, you can still ensure your transactions are protected by spending on the clone first, then manually adding the ring on this page, which allows you to then spend your MoneroBS safely.&lt;br&gt;If you do not use a key-reusing MoneroBS clone without these safety features, then you do not need to do anything as it is all automated.&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="279"/>
         <source>This records rings used by outputs spent on Monero on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</source>
-        <translation type="unfinished"></translation>
+        <translation>This records rings used by outputs spent on MoneroBS on a key reusing chain, so that the same ring may be reused to avoid privacy issues.</translation>
     </message>
     <message>
         <location filename="../pages/SharedRingDB.qml" line="290"/>
@@ -2000,7 +2002,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Sign.qml" line="342"/>
         <source>Enter the Monero Address (example: 44AFFq5kSiGBoZ...)</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter the MoneroBS Address (example: B4AFFq5kSiGBoZ...)</translation>
     </message>
     <message>
         <location filename="../pages/Sign.qml" line="352"/>
@@ -2133,7 +2135,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Transfer.qml" line="163"/>
         <source>Spendable funds: %1 XMR. Please wait ~%2 minutes for your whole balance to become spendable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spendable funds: %1 MBS. Please wait ~%2 minutes for your whole balance to become spendable.</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="284"/>
@@ -2317,7 +2319,7 @@ You can change the password in the wallet settings.</source>
     <message>
         <location filename="../pages/Transfer.qml" line="589"/>
         <source>Spend XMR from a cold (offline) wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>Spend MBS from a cold (offline) wallet</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="593"/>
@@ -2424,7 +2426,7 @@ Ringsize: </source>
     <message>
         <location filename="../pages/Transfer.qml" line="696"/>
         <source>Monero sent successfully</source>
-        <translation type="unfinished"></translation>
+        <translation>MoneroBS sent successfully</translation>
     </message>
     <message>
         <location filename="../pages/Transfer.qml" line="760"/>
@@ -2554,12 +2556,12 @@ For the case with Spend Proof, you don&apos;t need to specify the recipient addr
     <message>
         <location filename="../components/UpdateDialog.qml" line="77"/>
         <source>New Monero version v%1 is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>New MoneroBS version v%1 is available.</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="98"/>
         <source>Please visit getmonero.org for details</source>
-        <translation type="unfinished"></translation>
+        <translation>Please visit github.com/cryptofugu/monero-gui/releases for details</translation>
     </message>
     <message>
         <location filename="../components/UpdateDialog.qml" line="102"/>
@@ -2898,7 +2900,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardCreateWallet3.qml" line="60"/>
         <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.</source>
-        <translation type="unfinished"></translation>
+        <translation>To be able to communicate with the MoneroBS network your wallet needs to be connected to a MoneroBS node. For best privacy it&apos;s recommended to run your own node.</translation>
     </message>
 </context>
 <context>
@@ -2949,7 +2951,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="119"/>
         <source>Additionally, you may specify a bootstrap node to use Monero immediately.</source>
-        <translation type="unfinished"></translation>
+        <translation>Additionally, you may specify a bootstrap node to use MoneroBS immediately.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardDaemonSettings.qml" line="167"/>
@@ -2962,7 +2964,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="61"/>
         <source>Welcome to Monero</source>
-        <translation type="unfinished"></translation>
+        <translation>Welcome to MoneroBS</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="66"/>
@@ -2972,7 +2974,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="67"/>
         <source>Choose this option if this is your first time using Monero.</source>
-        <translation type="unfinished"></translation>
+        <translation>Choose this option if this is your first time using MoneroBS.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="87"/>
@@ -2982,7 +2984,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardHome.qml" line="88"/>
         <source>Connect your hardware wallet to create a new Monero wallet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Connect your hardware wallet to create a new MoneroBS wallet.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardHome.qml" line="107"/>
@@ -3058,7 +3060,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="84"/>
         <source>Temporary use of remote nodes is useful in order to use Monero immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</source>
-        <translation type="unfinished"></translation>
+        <translation>Temporary use of remote nodes is useful in order to use MoneroBS immediately (hence the name bootstrap), however be aware that when using remote nodes (including with the bootstrap setting), nodes could track your IP address, track your &quot;restore height&quot; and associated block request data, and send you inaccurate information to learn more about transactions you make.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeBootstrap.qml" line="97"/>
@@ -3081,7 +3083,7 @@ your input may be required.</source>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="72"/>
         <source>This mode is ideal for managing small amounts of Monero. You have access to basic features for making and managing transactions. It will automatically connect to the Monero network so you can start using Monero immediately.</source>
-        <translation type="unfinished"></translation>
+        <translation>This mode is ideal for managing small amounts of MoneroBS. You have access to basic features for making and managing transactions. It will automatically connect to the MoneroBS network so you can start using MoneroBS immediately.</translation>
     </message>
     <message>
         <location filename="../wizard/WizardModeRemoteNodeWarning.qml" line="85"/>
@@ -3284,7 +3286,9 @@ your input may be required.</source>
         <source>To be able to communicate with the Monero network your wallet needs to be connected to a Monero node. For best privacy it&apos;s recommended to run your own node.
 
 If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</source>
-        <translation type="unfinished"></translation>
+        <translation>To be able to communicate with the MoneroBS network your wallet needs to be connected to a MoneroBS node. For best privacy it&apos;s recommended to run your own node.
+
+If you don&apos;t have the option to run your own node, there&apos;s an option to connect to a remote node.</translation>
     </message>
 </context>
 <context>
@@ -3545,7 +3549,7 @@ your input may be required.</source>
     <message>
         <location filename="../main.qml" line="967"/>
         <source>Monero sent successfully: %1 transaction(s) </source>
-        <translation type="unfinished"></translation>
+        <translation>MoneroBS sent successfully: %1 transaction(s) </translation>
     </message>
     <message>
         <location filename="../main.qml" line="984"/>
@@ -3578,7 +3582,7 @@ your input may be required.</source>
     <message>
         <location filename="../main.qml" line="1054"/>
         <source>This address received %1 monero, with %2 confirmation(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>This address received %1 monerobs, with %2 confirmation(s).</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1065"/>
@@ -3700,7 +3704,7 @@ your input may be required.</source>
     <message>
         <location filename="../main.qml" line="1051"/>
         <source>This address received %1 monero, but the transaction is not yet mined</source>
-        <translation type="unfinished"></translation>
+        <translation>This address received %1 monerobs, but the transaction is not yet mined</translation>
     </message>
     <message>
         <location filename="../main.qml" line="1058"/>

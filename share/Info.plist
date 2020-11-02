@@ -18,16 +18,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>monero-wallet-gui</string>
+  <string>monerobs-wallet-gui</string>
   
   <key>CFBundleName</key>
-  <string>Monero GUI</string>
+  <string>MoneroBS GUI</string>
 
   <key>NSHumanReadableCopyright</key>
-  <string>Copyright © 2014-2020 The Monero Project</string>
+  <string>Copyright © 2020 Blockchain Solutions</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.monero-project.monero-wallet-gui</string>
+  <string>org.blockchainsolutions.monerobs-wallet-gui</string>
 
   <key>CFBundleVersion</key>
   <string>@VERSION_LONG@</string>
@@ -53,10 +53,10 @@
     </dict>
     <dict>
       <key>CFBundleURLName</key>
-      <string>moneroseed Handler</string>
+      <string>monerobsseed Handler</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>moneroseed</string>
+        <string>monerobsseed</string>
       </array>
     </dict>
   </array>

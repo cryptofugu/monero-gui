@@ -237,7 +237,7 @@ Rectangle {
                         if (persistentSettings.fiatPriceEnabled && persistentSettings.fiatPriceToggle) {
                             return appWindow.fiatApiCurrencySymbol();
                         } else {
-                            return "XMR"
+                            return "MBS"
                         }
                     }
                     color: MoneroComponents.Style.blackTheme ? "white" : "black"
@@ -271,7 +271,8 @@ Rectangle {
                         if (persistentSettings.fiatPriceEnabled && persistentSettings.fiatPriceToggle) {
                             return balanceFiatString.split('.')[0] + "."
                         } else {
-                            return balanceString.split('.')[0] + "."
+                            //return balanceString.split('.')[0] + "."
+							return balanceString
                         }
                     }
                     font.pixelSize: {
@@ -290,7 +291,8 @@ Rectangle {
                         cursorShape: Qt.PointingHandCursor
                         onClicked: {
                                 console.log("Copied to clipboard");
-                                clipboard.setText(balancePart1.text + balancePart2.text);
+                                //clipboard.setText(balancePart1.text + balancePart2.text);
+								clipboard.setText(balancePart1.text);
                                 appWindow.showStatusMessage(qsTr("Copied to clipboard"),3)
                         }
                     }
@@ -306,7 +308,7 @@ Rectangle {
                         if (persistentSettings.fiatPriceEnabled && persistentSettings.fiatPriceToggle) {
                             return balanceFiatString.split('.')[1]
                         } else {
-                            return balanceString.split('.')[1]
+                            //return balanceString.split('.')[1]
                         }
                     }
                     font.pixelSize: 16

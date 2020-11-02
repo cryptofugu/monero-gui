@@ -2124,7 +2124,7 @@ ApplicationWindow {
             case NetworkType.TESTNET:
                 return 28081;
             default:
-                return 18081;
+                return 18181;
         }
     }
 

@@ -1,4 +1,5 @@
 // Copyright (c) 2020, The Monero Project
+// Copyright (c) 2020 Blockchain Solutions
 //
 // All rights reserved.
 //
